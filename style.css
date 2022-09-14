@@ -1,0 +1,54 @@
+body{
+    background-image:url(image/images.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+}
+
+.container{
+    margin-top: 300px;
+    margin-left: 70px;
+}
+
+.digit{
+    font-size: 150px;
+    font-weight: 500; 
+}
+
+.text{
+    font-size: 40px;
+    font-weight: bold;  
+}
+
+.btn-container{
+    text-align: start;
+    margin: 40px;
+    margin-left: 220px;
+}
+
+.btn{
+    padding:7px 20px;
+    margin: 0 15px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+@media only screen and (max-width: 808px){
+    .digit{
+        font-size: 105px;
+    }
+    .text{
+        font-size: 30px;
+    }
+}
